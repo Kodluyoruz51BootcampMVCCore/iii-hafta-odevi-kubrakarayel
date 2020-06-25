@@ -91,10 +91,6 @@ If you want to know when to use Task and when to use Thread: Task is simpler to 
 
 The bottom line is that Task is almost always the best option; it provides a much more powerful API and avoids wasting OS threads.The only reasons to explicitly create your own Threads in modern code are setting per-thread options, or maintaining a persistent thread that needs to maintain its own identity.
 
-## Extension 
-
-
-
 
 
 ## Kaynakça
